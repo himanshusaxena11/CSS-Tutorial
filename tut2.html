@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        p{
+            border: 3px solid brown;
+        }
+        /* id selector */
+        #firstpara{
+            color: greenyellow;
+        }
+
+        /* class selector */
+        .goldElement{
+            color:gold;
+        }
+        .bgcyan{
+            background-color: cyan;
+        }
+        .crimsonElement{
+            color:crimson
+        }
+        .bgkhaki{
+            background-color: khaki;
+        }
+
+        /* Grouping selector */
+        footer,span{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h3>Css Selector</h3>
+    <p id="firstpara">Paragraph to demonstrate css selector</p>
+    <p id="secondpara" class="goldElement bgcyan">Another paragraph to demonstrate css selector</p>
+    <div>
+        <p class="crimsonElement bgkhaki">Yet another paragraph to demonstrate css selector</p>
+        <span>This is span</span>
+    </div>
+    <footer>This is footer</footer>
+</body>
+</html>
